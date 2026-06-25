@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>МФЦ Ижевск | Информационный ресурс практики</title>
+  <meta name="description" content="Учебный информационный ресурс для посетителей МФЦ «Мои документы» в городе Ижевске, ул. Молодежная, 103В.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand__badge">Практика в МФЦ</span>
+        <a class="brand__title" href="index.html">Мои документы<br>Ижевск, Молодежная 103В</a>
+      </div>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a class="site-nav__link site-nav__link--active" href="index.html">Главная</a>
+        <a class="site-nav__link" href="services.html">Услуги</a>
+        <a class="site-nav__link" href="assistant.html">Помощник</a>
+        <a class="site-nav__link" href="faq.html">FAQ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Учебный web-сайт для практики</p>
+          <h1>Информационный ресурс для посетителей МФЦ «Мои документы»</h1>
+          <p class="hero__lead">
+            Сайт разработан как учебный проект по итогам практики в МФЦ города Ижевска.
+            Он помогает быстро понять, какие услуги доступны, как подготовиться к визиту
+            и какие документы взять с собой.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="services.html">Посмотреть услуги</a>
+            <a class="button button--ghost" href="assistant.html">Открыть помощник</a>
+          </div>
+          <ul class="hero__facts">
+            <li>Не менее 3 взаимосвязанных страниц</li>
+            <li>Текстовая и графическая информация</li>
+            <li>Адаптивный интерфейс для телефона и ПК</li>
+          </ul>
+        </div>
+        <div class="hero__visual card">
+          <img src="assets/office-dashboard.svg" alt="Иллюстрация информационного стенда МФЦ">
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__header">
+          <p class="eyebrow">Назначение сайта</p>
+          <h2>Что получает посетитель</h2>
+        </div>
+        <div class="grid grid--three">
+          <article class="card feature-card">
+            <h3>Подготовка к визиту</h3>
+            <p>Памятки по популярным обращениям помогают заранее собрать документы и сократить время консультации.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Маршрут по услугам</h3>
+            <p>Навигация по разделам показывает, куда перейти для получения информации о процедуре и сроках.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Электронный помощник</h3>
+            <p>Адаптированный модуль подбирает чек-лист документов для посетителя по выбранной услуге.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--accent">
+        <div class="section__header">
+          <p class="eyebrow">Почему именно такой формат</p>
+          <h2>Практическая ценность для МФЦ</h2>
+        </div>
+        <div class="split">
+          <div class="card">
+            <h3>Для посетителей</h3>
+            <p>Снижается количество повторных визитов, потому что гражданин заранее получает понятный перечень действий и документов.</p>
+            <ul class="check-list">
+              <li>Краткие инструкции без сложных формулировок</li>
+              <li>Ответы на частые вопросы</li>
+              <li>Переходы между разделами в 1–2 клика</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Для специалиста</h3>
+            <p>Сайт можно использовать как дополнительный информационный ресурс во время консультации или при удаленной подготовке заявителя.</p>
+            <ul class="timeline">
+              <li>Первичная консультация</li>
+              <li>Подбор услуги и памятки</li>
+              <li>Проверка комплекта документов</li>
+              <li>Направление на прием</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__header">
+          <p class="eyebrow">Маршрут по сайту</p>
+          <h2>Структура разделов</h2>
+        </div>
+        <div class="map-layout card">
+          <img src="assets/site-map.svg" alt="Схема разделов сайта">
+          <div class="map-layout__text">
+            <p><strong>Главная</strong> знакомит с назначением ресурса и быстрыми переходами.</p>
+            <p><strong>Услуги</strong> содержит перечень популярных обращений и этапы получения услуги.</p>
+            <p><strong>Помощник</strong> реализует адаптацию ресурса для автоматизации подготовки к визиту.</p>
+            <p><strong>FAQ</strong> отвечает на типовые вопросы и содержит контактную информацию.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Учебный проект по практике</strong>
+        <p>Информационный ресурс подготовлен по мотивам работы в МФЦ «Мои документы» г. Ижевска.</p>
+      </div>
+      <div>
+        <p>Адрес практики: г. Ижевск, ул. Молодежная, 103В</p>
+        <p><a href="faq.html">Перейти к FAQ и контактам</a></p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

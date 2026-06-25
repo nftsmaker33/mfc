@@ -1,0 +1,18 @@
+<svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="420" rx="32" fill="#FFF8EF"/>
+  <circle cx="122" cy="210" r="56" fill="#0D6F67"/>
+  <circle cx="292" cy="210" r="56" fill="#C96F3B"/>
+  <circle cx="462" cy="210" r="56" fill="#0D6F67"/>
+  <circle cx="598" cy="210" r="56" fill="#F2E5D3"/>
+  <path d="M178 210H236" stroke="#0D6F67" stroke-width="10" stroke-linecap="round"/>
+  <path d="M348 210H406" stroke="#0D6F67" stroke-width="10" stroke-linecap="round"/>
+  <path d="M518 210H542" stroke="#0D6F67" stroke-width="10" stroke-linecap="round"/>
+  <text x="122" y="218" text-anchor="middle" fill="white" font-family="Arial" font-size="18" font-weight="700">Услуга</text>
+  <text x="292" y="218" text-anchor="middle" fill="white" font-family="Arial" font-size="18" font-weight="700">Памятка</text>
+  <text x="462" y="218" text-anchor="middle" fill="white" font-family="Arial" font-size="18" font-weight="700">Проверка</text>
+  <text x="598" y="218" text-anchor="middle" fill="#1F2430" font-family="Arial" font-size="18" font-weight="700">Прием</text>
+  <text x="122" y="310" text-anchor="middle" fill="#5B6473" font-family="Arial" font-size="16">Выбор услуги</text>
+  <text x="292" y="310" text-anchor="middle" fill="#5B6473" font-family="Arial" font-size="16">Подбор документов</text>
+  <text x="462" y="310" text-anchor="middle" fill="#5B6473" font-family="Arial" font-size="16">Контроль комплекта</text>
+  <text x="598" y="310" text-anchor="middle" fill="#5B6473" font-family="Arial" font-size="16">Передача заявления</text>
+</svg>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Помощник посетителя | Адаптация ресурса</title>
+  <meta name="description" content="Адаптированный модуль подбора документов для подготовки к визиту в МФЦ.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand__badge">Практика в МФЦ</span>
+        <a class="brand__title" href="index.html">Мои документы<br>Ижевск, Молодежная 103В</a>
+      </div>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a class="site-nav__link" href="index.html">Главная</a>
+        <a class="site-nav__link" href="services.html">Услуги</a>
+        <a class="site-nav__link site-nav__link--active" href="assistant.html">Помощник</a>
+        <a class="site-nav__link" href="faq.html">FAQ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-intro">
+        <p class="eyebrow">Раздел 2</p>
+        <h1>Помощник подготовки к визиту</h1>
+        <p>Это адаптированный модуль информационного ресурса, который автоматизирует первичную консультацию: по выбранной услуге формируется памятка с базовым перечнем документов и действий.</p>
+      </section>
+
+      <section class="section">
+        <div class="split split--wide">
+          <div class="card">
+            <form class="helper-form" id="helper-form">
+              <label for="service">Выберите услугу</label>
+              <select id="service" name="service">
+                <option value="registration">Регистрация по месту жительства</option>
+                <option value="passport">Замена или выдача паспорта</option>
+                <option value="estate">Услуги Росреестра</option>
+                <option value="social">Социальные услуги и справки</option>
+              </select>
+
+              <label for="visitor">Категория заявителя</label>
+              <select id="visitor" name="visitor">
+                <option value="adult">Совершеннолетний заявитель</option>
+                <option value="family">Семья с детьми</option>
+                <option value="proxy">Представитель по доверенности</option>
+              </select>
+
+              <button class="button button--primary" type="submit">Сформировать памятку</button>
+            </form>
+          </div>
+
+          <article class="card result-card" id="result-card" aria-live="polite">
+            <p class="eyebrow">Результат адаптации</p>
+            <h2 id="result-title">Памятка будет сформирована здесь</h2>
+            <p id="result-summary">Выберите услугу и категорию заявителя, чтобы получить краткий маршрут обращения.</p>
+            <ul class="check-list" id="result-list">
+              <li>Подсказки по документам</li>
+              <li>Порядок действий</li>
+              <li>Рекомендации перед визитом</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--accent">
+        <div class="section__header">
+          <p class="eyebrow">Задание 6</p>
+          <h2>Что именно было адаптировано</h2>
+        </div>
+        <div class="grid grid--three">
+          <article class="card feature-card">
+            <h3>Информационный ресурс</h3>
+            <p>Вместо статичной страницы реализован интерактивный блок, который подстраивает содержимое под выбранный запрос.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Автоматизация консультации</h3>
+            <p>Специалист или посетитель получает основу для проверки комплекта документов без долгого поиска по разделам.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Снижение ошибок</h3>
+            <p>Чек-лист помогает уменьшить риск неполного пакета документов и повторного посещения центра.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Модуль адаптации</strong>
+        <p>Страница демонстрирует результат задания 6 в виде автоматизированной памятки.</p>
+      </div>
+      <div>
+        <p><a href="services.html">Вернуться к перечню услуг</a></p>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

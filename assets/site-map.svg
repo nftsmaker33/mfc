@@ -1,0 +1,16 @@
+<svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="420" rx="32" fill="#FFF8EF"/>
+  <rect x="274" y="36" width="172" height="76" rx="24" fill="#0D6F67"/>
+  <text x="360" y="82" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="700">Главная</text>
+  <path d="M360 112V168" stroke="#0D6F67" stroke-width="8" stroke-linecap="round"/>
+  <path d="M180 214H540" stroke="#0D6F67" stroke-width="8" stroke-linecap="round"/>
+  <path d="M180 214V248" stroke="#0D6F67" stroke-width="8" stroke-linecap="round"/>
+  <path d="M360 214V248" stroke="#0D6F67" stroke-width="8" stroke-linecap="round"/>
+  <path d="M540 214V248" stroke="#0D6F67" stroke-width="8" stroke-linecap="round"/>
+  <rect x="94" y="248" width="172" height="86" rx="24" fill="#C96F3B"/>
+  <rect x="274" y="248" width="172" height="86" rx="24" fill="#F2E5D3"/>
+  <rect x="454" y="248" width="172" height="86" rx="24" fill="#0D6F67"/>
+  <text x="180" y="299" text-anchor="middle" fill="white" font-family="Arial" font-size="22" font-weight="700">Услуги</text>
+  <text x="360" y="299" text-anchor="middle" fill="#1F2430" font-family="Arial" font-size="22" font-weight="700">FAQ</text>
+  <text x="540" y="299" text-anchor="middle" fill="white" font-family="Arial" font-size="22" font-weight="700">Помощник</text>
+</svg>
